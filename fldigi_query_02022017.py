@@ -1,6 +1,6 @@
 """
-fldigi autotuner script
-Released into the public domain by Adam Greig in 2010
+fldigi xml-rpc interface to read and send rxbuffer to mysql server
+developed under beyond the clouds project
 """
 
 import xmlrpclib
@@ -68,7 +68,7 @@ while 1:
 		if sw==0:
 			mystart=mystart+1	
 		
-	time.sleep(5)
+	time.sleep(4)
 		
 		
 
